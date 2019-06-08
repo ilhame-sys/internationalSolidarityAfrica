@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { NewsComponent } from './components/news/news.component';
 import { ActionsComponent } from './components/actions/actions.component';
 import { UsComponent } from './components/us/us.component';
 import { DonateComponent } from './components/donate/donate.component';
+import { AppActionComponent } from './components/actions/components.actions/app-action/app-action.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { DonateComponent } from './components/donate/donate.component';
     NewsComponent,
     ActionsComponent,
     UsComponent,
-    DonateComponent
+    DonateComponent,
+    AppActionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  processForm() {
+    const allInfo = `My name is ${this.name}. My email is ${this.email}. The subject is ${this.subject} My message is ${this.message}`;
+    alert(allInfo); 
   }
 
 }
