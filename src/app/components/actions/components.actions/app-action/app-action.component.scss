@@ -8,27 +8,30 @@
 #text{
     overflow: hidden; 
     word-wrap: break-word; 
-    font-size: 15px; 
-    padding-right: 10px;
+    font-size: 1vw;
+    padding-right: 15px;
 }
 
 #text-main{
     overflow: hidden; 
     word-wrap: break-word; 
-    font-size: 18px; 
-    padding-right: 10px;
+    font-size: 1.3vw; 
+    padding-right: 15px;
 }
-// .item{
 
-//     p{
-//         //si ecran +500px
-//     }
+#tall-of-action{
+    @media screen and (max-width: 800px){ 
+        width: 100%;
+    }
+}
 
-//     // pour les ecrans inferieurs a Xpx
-//     @media screen and (max-width: 500px){
-//         p{
-//             //sous 500px
-//         }
-//     }
-
-// }
+#tall-of-text{
+    p{
+        font-size: 15;
+    }
+    @media screen and (max-width: 1150px){
+        p{
+            font-size: 2;
+        }
+    }
+}
