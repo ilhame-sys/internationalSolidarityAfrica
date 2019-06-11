@@ -39,21 +39,23 @@
 
 #div-action-img{
     float: left; 
-    width: 187px;
-    height: 162px;
-    padding: 10px;
     @media screen and (max-width: 900px){ 
-        width: unset;
-        height: unset;
         float: none;
-        padding-bottom: 10px; 
     }
 }
 
+
 #action-img{
-    width: 187px;
-    height: 162px;
+
+    width: 150px;
+    height: 130px;
+    padding: 10px;
+    padding-top:16px;
+    padding-bottom: 16px;
     @media screen and (max-width: 900px){ 
+        padding: 7px;
+        padding-top:13px;
+        padding-bottom: 13px;
         text-align: center;
      }
 }
@@ -81,6 +83,55 @@
     display: none;
     @media screen and (max-width: 900px){ 
         display: block;
+    }
+}
+
+///
+
+
+#action-img-main{
+    width: 300px;
+    height: 260px;
+    padding: 15px;
+    @media screen and (max-width: 900px){ 
+        padding: 7px;
+        text-align: center;
+     }
+}
+
+#action-div-img-main{
+    float: left;
+    @media screen and (max-width: 900px){ 
+        float: none;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+}
+
+#action-div-text-main{
+    height: 271px; 
+    width: calc(80%-256px);
+    @media screen and (max-width: 900px){ 
+        height: unset;
+        width: 100%;
+    }
+}
+
+#text-main{
+    overflow: hidden; 
+    word-wrap: break-word; 
+    font-size: 1.6vw; 
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    @media screen and (max-width: 900px){ 
+        font-size: 3.2vw;
+        text-align: justify;
+    }
+    @media screen and (max-width: 600px){ 
+        font-size: 3.6vw;
+        text-align: justify;
     }
 }
 
