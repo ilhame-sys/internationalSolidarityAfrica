@@ -13,6 +13,7 @@ import { ActionsComponent } from './components/actions/actions.component';
 import { UsComponent } from './components/us/us.component';
 import { DonateComponent } from './components/donate/donate.component';
 import { AppActionComponent } from './components/actions/components.actions/app-action/app-action.component';
+import { TeamComponent } from './components/us/team/team.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AppActionComponent } from './components/actions/components.actions/app-
     ActionsComponent,
     UsComponent,
     DonateComponent,
-    AppActionComponent
+    AppActionComponent,
+    TeamComponent,
   ],
   imports: [
     BrowserModule,
