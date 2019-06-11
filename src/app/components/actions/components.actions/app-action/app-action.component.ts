@@ -11,5 +11,4 @@ export class AppActionComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
