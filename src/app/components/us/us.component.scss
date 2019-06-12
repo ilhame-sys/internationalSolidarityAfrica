@@ -1,11 +1,17 @@
-p
+p.paragraphe
+{
+    text-indent: 30px;
+}
+.missions
+{
+    font-size: 21px;
+}
+.contenu
 {
     margin-left: 5%;
     margin-right: 5%;
-    text-indent: 30px;
 }
-ol
+figure.center
 {
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
 }
