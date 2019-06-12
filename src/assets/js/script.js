@@ -9,3 +9,25 @@ $(document).ready(function() {
 
 
 ///
+
+// function openModal(){
+//   var elmt = document.getElementById("modal");
+
+//   elmt.style.display = "block";
+//   elmt.style.display = "contents";
+
+//   var elmt = document.getElementById("modal-button");
+
+//   elmt.style.display = "none";
+//   }
+// function closeModal(){
+//   var elmt = document.getElementById("modal");
+    
+//   elmt.style.display = "none";
+//   elmt.style.display = "none";
+    
+//   var elmt = document.getElementById("modal-button");
+    
+//   elmt.style.display = "block";
+//   elmt.style.display = "contents";
+//   }
