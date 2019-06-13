@@ -16,9 +16,8 @@
   .modal-content {
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
     width: 95%;
+    height: 80%;
   }
   
   /* The Close Button */
@@ -34,4 +33,47 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+
+  #modal-top{
+    background-color: turquoise;
+  }
+
+  #modal-choice{
+    width: 29%; 
+    padding: 0px; 
+    margin: 0px;
+    float:left;
+    text-align: center; 
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 50px;
+    background-color: turquoise;
+    color: #fefefe;
+  }
+  #modal-choice:hover{
+    background-color: rgb(57, 197, 183);
+  }
+
+  #modal-text{
+    height: 150px;
+    width: 87%; 
+    float: left; 
+    display: block;
+    padding: 10px;
+  }
+  #modal-img{
+    height: 150px;
+    width: 87%; 
+    float: left; 
+    display: none;
+    padding: 10px;
+  }
+  #modal-video{
+    height: 150px;
+    width: 87%; 
+    float: left; 
+    display: none;
+    padding: 10px;
   }
