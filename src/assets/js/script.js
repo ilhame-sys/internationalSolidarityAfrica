@@ -12,10 +12,12 @@ $(document).ready(function() {
 function openModal(){
     var elmt = document.getElementById("myModal");
     elmt.style.display = "block";
+    // $("html").css("overflow", "hidden");
   }
 function closeModal(){
     var elmt = document.getElementById("myModal");
     elmt.style.display = "none";
+    // $("html").css("overflow", "auto");
   }
   function showText(){
     var elmt = document.getElementById("modal-text");

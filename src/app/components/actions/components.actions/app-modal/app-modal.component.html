@@ -1,56 +1,119 @@
-
-<!-- The Modal -->
 <div id="myModal" class="modal">
+    <header id="modal-head">
+      <p id="modal-title">
+        <b>
+          Action n°131 :
+        </b>
+      </p>
+      <button class="modal-close is-large" aria-label="close" onclick="closeModal();"></button>
+    </header>
+    <br>
+    <div id="modal-content">
+      <div id="modal-choices">
+        <div id="modal-choice" onclick="showText();">
+          <b>L'action</b>
+        </div>
+        <div id="modal-choice" onclick="showImg();">
+          <b>Images</b>
+        </div>
+        <div id="modal-choice" onclick="showVideo();">
+          <b>Vidéos</b>
+        </div>
+      </div>
+      <div id="modal-part">
+        <div id="modal-text" class="modal-item-content">
+          <p>
+            Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.
+          </p>
+        </div>
+        <div id="modal-img" class="modal-item-content" style="display: none;">
+          Images en lien avec l'action.
+        </div>
+        <div id="modal-video" class="modal-item-content" style="display: none;">
+          Vidéos en lien avec l'action.
+        </div>
+      </div>
+      
+      <div id="modal-logos">
+        <div id="modal-logo">
+          <b>
+            BUDGET
+          </b>
+        </div>
+        <div id="modal-logo">
+          <b>
+            HABITANTS          
+          </b>
+        </div>
+        <div id="modal-logo">
+          <b>
+            PAYS
+          </b>
+        </div>
+        <div id="modal-logo">
+          <b>
+            AUTRE
+          </b>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <!-- Modal content -->
-  <div class="modal-content">
-    
-    <div id="modal-top">
-      <div id="modal-choice" onclick="showText();">
-        <b>Texte</b>
-      </div>
-      <div id="modal-choice" onclick="showImg();">
-        <b>Images</b>
-      </div>
-      <div id="modal-choice" onclick="showVideo();">
-        <b>Vidéos</b>
-      </div>
-      <div style="width: 13%; padding: 0px; margin: 0px; float:left; text-align: end; background-color: turquoise; padding-top: 3.7px; padding-bottom: 3.7px; height: 50px;">
-        <a class="button is-rounded" onclick="closeModal();" style="background-color: white;  width: 40px; height: 40px; margin-right: 10px;">X</a>
-      </div>
+
+<!-- <div id="myModal" class="modal">
+  <header style="border: 10px solid white;" id="modal-part">
+    <p id="modal-title">
+      <b>
+        TITRE
+      </b>
+    </p>
+    <button class="modal-close is-large" aria-label="close" onclick="closeModal();" style="margin: 0px; padding: 0px;"></button>
+  </header>
+  <br>
+  <div id="modal-choices" style="border-bottom-left-radius: 1px; border-bottom-right-radius: 0px; border-bottom-color: white;">
+    <div id="modal-choice" onclick="showText();">
+      <b>L'action</b>
     </div>
-    <div style="width: 87%; height: 512px; float: left;" id="modal-text">
-      Texte variable selon l'action selectionner.
+    <div id="modal-choice" onclick="showImg();">
+      <b>Images</b>
     </div>
-    <div style="width: 87%; height: 512px; float: left;" id="modal-img">
+    <div id="modal-choice" onclick="showVideo();">
+      <b>Vidéos</b>
+    </div>
+  </div>
+  <div id="modal-content" style="border-top-left-radius: 0px;border-top-right-radius: 0px; background-color: turquoise; border-top-color: rgb(123, 247, 234);">
+    <div id="modal-text" style="background-color: white;">
+      Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.Texte variable selon l'action selectionner.
+    </div>
+    <div id="modal-img" style="background-color: white;">
       Images en lien avec l'action.
     </div>
-    <div style="width: 87%; height: 512px; float: left;" id="modal-video">
+    <div id="modal-video" style="background-color: white;">
       Vidéos en lien avec l'action.
     </div>
-    <div style="width: 13%; float: left; height: 512px;">
-      <div style="height: 25%; background-color: turquoise; color: white; text-align: center; font-size: 16px;">
+    <div id="modal-logos">
+      <div id="modal-logo">
         <b>
           BUDGET
         </b>
       </div>
-      <div style="height: 25%; background-color: turquoise; color: white; text-align: center; font-size: 16px;">
+      <div id="modal-logo">
         <b>
           HABITANTS          
         </b>
       </div>
-      <div style="height: 25%; background-color: turquoise; color: white; text-align: center; font-size: 16px;">
+      <div id="modal-logo">
         <b>
           PAYS
         </b>
       </div>
-      <div style="height: 25%; background-color: turquoise; color: white; text-align: center; font-size: 16px;">
+      <div id="modal-logo">
         <b>
           AUTRE
         </b>
       </div>
     </div>
   </div>
+</div> -->
 
-</div>
 

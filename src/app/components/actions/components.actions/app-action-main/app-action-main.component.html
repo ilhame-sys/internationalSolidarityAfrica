@@ -13,12 +13,14 @@
       <p id="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et libero lacus. Donec fringilla neque sit amet vehicula scelerisque. Proin auctor, erat a bibendum volutpat, sem risus tincidunt quam, id mollis enim orci vel nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et libero lacus. Donec fringilla neque sit amet vehicula scelerisque. Proin auctor, erat a bibendum volutpat, sem risus tincidunt quam, id mollis enim orci vel nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et libero lacus.
       </p>
     </div>
+    <p id="text-main" style="text-align: end;">16-06-2019</p>
     <br>
-    <progress class="progress is-success" value="50" max="100"></progress>  
-    <p id="action-button"> 1500€ / 3000 € Collecté ... </p>
+    <progress id="progress-bar" class="progress is-success" value="50" max="100"></progress>  
+    <p id="text-collected"> 1500€ / 3000 € Collecté ... </p>
+    <br>
     <div>
       <p id="action-button">
-        <a class="button is-success" id="button-action" style="font-size: 20px;"> Détails </a>
+        <a class="button is-success is-rounded" id="button-action" onclick="openModal();"> Détails </a>
       </p>
     </div>
   </div>

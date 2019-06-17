@@ -76,13 +76,33 @@
     padding-right: 15px;
     padding-left: 15px;
     text-align: center;
+    text-align: justify;
     @media screen and (max-width: 900px){ 
-        font-size: 3.6vw;
-        text-align: justify;
+        font-size: 3.5vw;
     }
 }
 
-//////
+#progress-bar{
+    height: 25px;
+    @media screen and (max-width: 900px){ 
+        height: 15px;
+    }
+}
+
+#button-action{
+    font-size: 24px;
+    @media screen and (max-width: 900px){ 
+        font-size: 20px;
+    }
+}
+
+#text-collected{
+    font-size: 1.8vw; text-align: center;
+    @media screen and (max-width: 900px){ 
+        font-size: 3vw;
+    }
+}
+
 
 
 
