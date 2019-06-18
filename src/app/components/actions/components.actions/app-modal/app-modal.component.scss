@@ -35,10 +35,12 @@
     display: block;
     overflow: hidden;
     text-align: justify;
-    padding: 10px;
     overflow: auto;
-    height: 400px;
-    margin: 10px;
+    max-height: 300px;
+    padding: 10px;
+    @media screen and (max-width: 900px){ 
+      width: 100%;
+    }
   }
 
   #modal-head{
@@ -47,8 +49,11 @@
     width: 95%;
     border-radius: 5px;
     border: 10px white solid;
-    font-size: 30px;
+    font-size: 3vw;
     text-align: center;
+    @media screen and (max-width: 900px){ 
+      font-size: 4.5vw;
+    }
   }
 
   #modal-content{
@@ -72,10 +77,13 @@
     width: calc(100% / 3); 
     float: left;
     text-align: center; 
-    font-size: 25px;
+    font-size: 2.5vw;
     color: white;
     background-color:  rgb(120, 247, 234);
     border: 10px solid rgb(120, 247, 234);
+    @media screen and (max-width: 900px){ 
+      font-size: 4.5vw;
+    }
   }
   #modal-choice:hover{
     background-color:  turquoise;
