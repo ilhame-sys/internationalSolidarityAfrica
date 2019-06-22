@@ -1,0 +1,19 @@
+.media-content
+{
+    text-align: center;
+}
+
+#img-article{
+    @media screen and (max-width: 1050px) {
+        text-align: center;
+        width: 256px;
+        height: 256px;
+    }
+}
+
+#test{
+    @media screen and (max-width: 1050px) {
+        width: 100%;
+        float: none;
+    }
+}
