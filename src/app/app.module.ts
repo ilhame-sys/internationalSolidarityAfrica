@@ -15,7 +15,7 @@ import { DonateComponent } from './components/donate/donate.component';
 import { AppActionComponent } from './components/actions/components.actions/app-action/app-action.component';
 import { AppActionMainComponent } from './components/actions/components.actions/app-action-main/app-action-main.component';
 import { TeamComponent } from './components/us/team/team.component';
-import { AppModalComponent } from './components/actions/components.actions/app-modal/app-modal.component';
+import { AppShowActionComponent } from './components/actions/components.actions/app-show-action/app-show-action.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,7 @@ import { AppModalComponent } from './components/actions/components.actions/app-m
     AppActionComponent,
     AppActionMainComponent,
     TeamComponent,
-    AppModalComponent
+    AppShowActionComponent
   ],
   imports: [
     BrowserModule,

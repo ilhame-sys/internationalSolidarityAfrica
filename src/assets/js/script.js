@@ -8,39 +8,39 @@ $(document).ready(function() {
 });
 
 
-/// -- UTILSE AU 'Modal' DE ACTION -- ///
-function openModal(){
-    var elmt = document.getElementById("myModal");
-    elmt.style.display = "block";
-    // $("html").css("overflow", "hidden");
-  }
-function closeModal(){
-    var elmt = document.getElementById("myModal");
-    elmt.style.display = "none";
-    // $("html").css("overflow", "auto");
-  }
-  function showText(){
-    var elmt = document.getElementById("modal-text");
-    elmt.style.display = "block";
-    var elmt = document.getElementById("modal-img");
-    elmt.style.display = "none";
-    var elmt = document.getElementById("modal-video");
-    elmt.style.display = "none";
-  }
-function showImg(){
-    var elmt = document.getElementById("modal-img");
-    elmt.style.display = "block";
-    var elmt = document.getElementById("modal-text");
-    elmt.style.display = "none";
-    var elmt = document.getElementById("modal-video");
-    elmt.style.display = "none";
-  }
-  function showVideo(){
-    var elmt = document.getElementById("modal-video");
-    elmt.style.display = "block";
-    var elmt = document.getElementById("modal-img");
-    elmt.style.display = "none";
-    var elmt = document.getElementById("modal-text");
-    elmt.style.display = "none";
-  }
-  ///////////////////////////////////////
+// /// -- UTILSE AU 'Modal' DE ACTION -- ///
+// function openModal(){
+//     var elmt = document.getElementById("myModal");
+//     elmt.style.display = "block";
+//     // $("html").css("overflow", "hidden");
+//   }
+// function closeModal(){
+//     var elmt = document.getElementById("myModal");
+//     elmt.style.display = "none";
+//     // $("html").css("overflow", "auto");
+//   }
+//   function showText(){
+//     var elmt = document.getElementById("modal-text");
+//     elmt.style.display = "block";
+//     var elmt = document.getElementById("modal-img");
+//     elmt.style.display = "none";
+//     var elmt = document.getElementById("modal-video");
+//     elmt.style.display = "none";
+//   }
+// function showImg(){
+//     var elmt = document.getElementById("modal-img");
+//     elmt.style.display = "block";
+//     var elmt = document.getElementById("modal-text");
+//     elmt.style.display = "none";
+//     var elmt = document.getElementById("modal-video");
+//     elmt.style.display = "none";
+//   }
+//   function showVideo(){
+//     var elmt = document.getElementById("modal-video");
+//     elmt.style.display = "block";
+//     var elmt = document.getElementById("modal-img");
+//     elmt.style.display = "none";
+//     var elmt = document.getElementById("modal-text");
+//     elmt.style.display = "none";
+//   }
+//   ///////////////////////////////////////

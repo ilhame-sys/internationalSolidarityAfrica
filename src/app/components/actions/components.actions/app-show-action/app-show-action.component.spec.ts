@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppModalComponent } from './app-modal.component';
+import { AppShowActionComponent } from './app-show-action.component';
 
-describe('AppModalComponent', () => {
-  let component: AppModalComponent;
-  let fixture: ComponentFixture<AppModalComponent>;
+describe('AppShowActionComponent', () => {
+  let component: AppShowActionComponent;
+  let fixture: ComponentFixture<AppShowActionComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppModalComponent ]
+      declarations: [ AppShowActionComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppModalComponent);
+    fixture = TestBed.createComponent(AppShowActionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
